@@ -1,0 +1,179 @@
+body {
+    font-family: 'Georgia', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+    text-align: center;
+}
+h1 {
+    font-family: "Brush Script MT", cursive; 
+    font-size: 3rem;
+    text-align: center;
+    color:#fff;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: #fff;
+}
+
+p, li {
+    font-size: 1rem;
+}
+dt {
+    text-align:center
+    font-size:2rem;
+}
+.footer {
+    text-align: center;
+}
+.icon {
+    width: 40px; /* Adjust as needed */
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+img {
+  border: 1px solid #a020f0;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px; /* Prevents excessive width on large screens */
+    margin: auto;
+    padding: 20px;
+    cursor: help;
+}
+.about-me {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    text-align: center;
+}
+
+.about-me img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.about-me h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.about-me p {
+    font-size: 0.9rem;
+    color: #555;
+}
+.navbar {
+    background: linear-gradient(90deg, #ff8c00, #ff2e63);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.toggle-dark-mode {
+    cursor: help;
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+.toggle-dark-mode:hover {
+    background: #444;
+}
+.content {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(90deg, #FF0101, #FF019E);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.progress-bar {
+    width: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #ff5733, #ffc107);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.2s;
+}
+button {
+    background: linear-gradient(90deg, #ff8c00, #ff2e63);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.3s ease-in-out;
+}
+button:hover {
+    background: linear-gradient(90deg, #ff2e63, #ff8c00);
+    transform: scale(1.05);
+}
+.comment-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#commentBox {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment-list li {
+    background: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.dark-mode {
+    background: #1a1a1a;
+    color: #f4f4f4;
+}
+.dark-mode {
+    background: #1a1a1a;
+    color: #f4f4f4;
+}
+
+.dark-mode .content, .dark-mode .comment-section {
+    background: rgba(50, 50, 50, 0.9);
+    color: white;
+}
+
+.dark-mode button {
+    background: linear-gradient(90deg, #555, #777);
+}
+
+.dark-mode button:hover {
+    background: linear-gradient(90deg, #777, #555);
+}
+
