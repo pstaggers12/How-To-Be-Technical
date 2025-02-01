@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Be Technical</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="navbar">
+        <span>How to Be Technical</span>
+        <button class="toggle-dark-mode" onclick="toggleDarkMode()">Dark Mode</button>
+    </div>
+    <div class="main-content">
+        <h1>Welcome to How to Be Technical</h1>
+      </div>
+        <dl>
+            <dt><a href="#" onclick="showContent('understanding')">
+                    <img src="understanding.png" alt="Understanding Technical Writing" class="icon"> Understanding Technical Writing
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('types')">
+                    <img src="types.png" alt="Technical Types" class="icon"> Technical Types
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('design')">
+                    <img src="design.png" alt="Document Design" class="icon"> Document Design
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('audience')">
+                    <img src="audience.png" alt="Audience Awareness" class="icon"> Audience Awareness
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('social')">
+                    <img src="socialmedia.png" alt="Importance of Social Media" class="icon"> Importance of Social Media
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('tools')">
+                    <img src="tools.png" alt="Tools of the Trade" class="icon"> Tools of the Trade
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('career')">
+                    <img src="industry.png" alt="Breaking Into the Industry" class="icon"> Breaking Into the Industry
+		</a>
+	</dt>
+            <dt><a href="#" onclick="showContent('community')">
+                    <img src="community.png" alt="Community" class="icon"> Community
+		</a>
+	</dt>
+       
+        <div id="understanding" class="content">
+            <h3>Understanding Technical Writing</h3>
+            <h4>What is technical writing?</h4>
+	    <p>Technical writing is a way of explaining complicated ideas in a simple and clear way. It helps people understand how to use products, follow instructions, or learn about technical topics. You can find technical writing in manuals, user guides, reports, and online help articles.<br><br>The main goal of technical writing is to make information easy to understand for the reader. Whether it’s teaching somebody how to use software, assemble furniture, or understand a process, the writing should be clear and helpful.</p>
+	    <h4>Important Skills Every Technical Writer Needs</h4>
+	    <p>To be a good technical writer, you need these skills:</p>
+	<ul>
+		<li>Clear Writing – Explaining things in a simple and easy way.</li>
+		<li>Research Skills – Finding the right information and making sure it’s accurate.</li>
+		<li>Knowing the Audience – Understanding who will read the document and what they need.</li>
+		<li>Good Formatting – Using headings, lists, and images to organize information.</li>
+		<li>Teamwork – Working with experts to make sure everything is correct.</li>
+		<li>Tech Knowledge – Learning new tools and software used for writing and design.</li>
+		<li>Flexibility – Changing your writing style depending on the type of document.</li>
+	</ul>
+	<h4>How Technical Writing is Used in Different Industries</h4>
+	<p>Technical writing is used in many jobs like:</p>
+	<ul>
+		<li>Technology – Writing guides for software, apps, and websites.</li>
+		<li>Healthcare – Explaining medical procedures and writing patient guides.</li>
+		<li>Engineering – Creating manuals for machines and safety instructions.</li>
+		<li>Finance and Law – Writing legal documents, rules, and policies.</li>
+		<li>Education – Creating training materials and online courses.</li>
+	</ul>
+	<p>As technology changes, technical writers must keep learning new skills to stay up to date. Many now work with artificial intelligence, video tutorials, and interactive content to make information even easier to understand.</p>
+
+        </div>
+        
+        <div id="types" class="content">
+            <h3>Technical Types</h3>
+	    <h4>Software Documentation</h4>
+		<p>Software documentation is a type of technical writing that explains how to use software products, tools, or systems. It contains things like installation guides, setup instructions, troubleshooting tips, and feature descriptions. The goal is to help users understand how the software works and how to use it effectively.</p>
+		<p>Examples:</p>
+	<ul>
+		<li>Installation guides for apps</li>
+		<li>User guides for software</li>
+		<li>FAQs for common issues</li>
+	</ul>
+	<h4>User Manuals</h4>
+		<p>User manuals are detailed instructions designed to help people use a product or service. They are step-by-step guides, diagrams, and troubleshooting tips. The purpose is to make sure users can get the most out of the product without needing extra help.</p>
+		<p>Examples:</p>
+	<ul>
+		<li>Manual for setting up a new phone</li>
+		<li>Instruction booklet for assembling furniture</li>
+	</ul>
+	<h4>Reports and Proposals</h4>
+		<p>Reports and proposals are documents used to link research findings, project progress, or business plans. Reports usually show data and analysis, while proposals show a plan or solution to a problem. Both types of writing are formal and focused on presenting clear, evidence-based information.</p>
+		<p>Examples:</p>
+	<ul>
+		<li>Monthly project progress reports</li>
+		<li>Business proposals for new initiatives</li>
+	</ul>	
+	<h4>White Papers</h4>
+		<p>White papers are reliable documents that give thorough information on a specific topic. They are used to explain a complicated issue, offer a solution, or promote a product or service. White papers are usually written for a professional audience and are backed by research and data.</p>
+		<p>Examples:</p>
+	<ul>
+		<li>A white paper on new cybersecurity threats</li>
+		<li>A white paper discussing new technology in the healthcare industry</li>
+	</ul>
+	<h4>Standard Operating Procedures (SOPs)</h4>
+		<p>Standard Operating Procedures (SOPs) are step-by-step instructions that describe how to perform specific tasks or processes within an organization. They are used to make sure consistency and quality in operations, and they contain safety or regulatory guidelines.</p>
+		<p>Examples:</p>
+	<ul>
+		<li>SOP for handling hazardous materials</li>
+		<li>SOP for conducting employee performance reviews</li>
+	</ul>
+	<h4>API Documentation</h4>
+		<p>API documentation explains how developers can use and put together an API (Application Programming Interface) into their software. It contains details on the API’s features, functions, endpoints, and how to interact with it. This type of documentation is highly technical and is written for developers.</p>
+		<p>Examples:</p>
+	<ul>
+		<li>Documentation for a payment gateway API</li>
+		<li>Guide for using an AI API in an app development project</li>
+	</ul>
+
+        </div>
+        
+        <div id="design" class="content">
+            <h3>Document Design</h3>
+	<h4>Principles of Clear and Concise Writing</h4>
+		<p>Good technical writing is clear and concise. It gives information in as few words as possible while still being thorough and understandable.</p>
+	<ul>
+		<li>Use simple, straightforward language.</li>
+		<li>Avoid unnecessary words or technical jargon.</li>
+		<li>Organize information logically, starting with the most important points.</li>
+		<li>Focus on the needs of your audience, consider their knowledge and familiarity with the topic.</li>
+	</ul>
+	<h4>Effective Use of Typography, Spacing, and Layout</h4>
+		<p>Document design plays an important part in readability. A well-designed document makes it easier for the reader to find and understand the information they need:</p>
+	<ul>
+		<li>Typography - Choose fonts that are easy to read. Sans-serif fonts (like Arial or Helvetica) are frequently used in technical writing.</li>
+		<li>Spacing - Adequate line spacing and white space between paragraphs or sections help prevent the document from feeling crowded and overwhelming.</li>
+		<li>Layout - Break the content into sections with headings, subheadings, and bullet points. This makes the document easier to scan and find key information quickly.</li>
+	</ul>
+	<h4>Creating Visuals and Infographics to Increase Understanding</h4>
+		<p>Visual elements like diagrams, screenshots, and infographics can help explain hard concepts more clearly than words alone. When creating visuals:</p>
+	<ul>
+		<li>Use charts, diagrams, and images to simplify and backup text.</li>
+		<li>Make sure visuals are labeled correctly and are related to the content.</li>
+		<li>Keep visuals simple and avoid cluttering to maintain focus on the key message.</li>
+		</ul>
+
+        </div>
+        
+        <div id="audience" class="content">
+            <h3>Audience Awareness</h3>
+
+	<h4>Identifying Your Target Audience</h4>
+		<p>Understanding who will be reading your document is important. Different audiences will have different needs and expectations. Ask yourself:</p>
+	<ul>
+		<li>Who is the reader? Are they a beginner, an expert, or somewhere in the middle?</li>
+		<li>What does the reader need to know? Consider what information is most important for the audience's goals.</li>
+	</ul>
+	<h4>Writing for Different Expertise Levels</h4>
+		<p>When writing for different expertise levels, adjust the content and tone accordingly:</p>
+	<ul>
+		<li>For beginners, explain basic concepts and avoid jargon.</li>
+		<li>For intermediate readers, give more detailed explanations and examples.</li>
+		<li>For experts, focus on thorough information and avoid oversimplification.</li>
+	</ul>
+	<h4>Using Plain Language and Avoiding Jargon</h4>
+		<p>One of the most important parts of technical writing is making sure that the language is accessible.</p>
+	<ul>
+		<li>Plain language means using everyday words and sentences that are easy to understand.</li>
+		<li>Avoid jargon unless it’s necessary for the audience and clearly defined. Even experts appreciate simplicity in communication.</li>
+	</ul>
+
+        </div>
+        
+        <div id="social" class="content">
+            <h3>Importance of Social Media</h3>
+
+	<h4>Building an Online Presence as a Technical Writer</h4>
+		<p>Social media platforms like LinkedIn, Twitter, and personal blogs are great ways to showcase your work, share industry insights, and connect with potential employers.</p>
+	<ul>
+		<li>Create a professional LinkedIn profile that shows off your technical writing skills and experience.</li>
+		<li>Participate in industry discussions on platforms like Twitter to stay up to date on trends.</li>
+	</ul>
+	<h4>Networking Opportunities through LinkedIn and Professional Groups</h4>
+		<p>Networking is important in the technical writing field. Join groups on LinkedIn or professional organizations like the Society for Technical Communication (STC) to connect with other writers, share experiences, and find job opportunities.</p>
+	<h4>Blogging and Content Creation for Visibility in the Field</h4>
+		<p>Starting a blog or creating content can help you establish yourself as an expert in the field. Share tips on technical writing, document design, and industry trends. Blogging can also make your work more visible to potential employers and clients.</p>
+
+        </div>
+        
+        <div id="tools" class="content">
+            <h3>Tools of the Trade</h3>
+
+	<h4>Common Software and Tools</h4>
+		<p>Technical writers use different tools to create and manage their documents:</p>
+	<ul>
+		<li>Adobe FrameMaker - A professional tool for creating large documents.</li>
+		<li>MadCap Flare - A tool used for creating content for multiple platforms, including web and print.</li>
+		<li>Markdown - A lightweight markup language for creating formatted text.</li>
+		<li>MS Word - A versatile tool used for writing and editing documents.</li>
+	</ul>
+	<h4>Version Control and Collaboration Tools</h4>
+		<p>Collaboration tools are important for team-based writing projects:</p>
+	<ul>
+		<li>Git - A version control system that helps manage changes to documents and software.</li>
+		<li>Google Docs - A cloud-based tool that allows multiple users to work on the same document at the same time.</li>
+		<li>Confluence - A team collaboration tool used to create, share, and collaborate on documents.</li>
+	</ul>
+	<h4>AI and Automation in Technical Writing</h4>
+		<p>Artificial intelligence (AI) is progressively being used to assist with technical writing tasks:</p>
+	<ul>
+		<li>AI can help generate drafts, suggest improvements, and automate repetitive tasks like formatting.</li>
+		<li>Tools like Grammarly and Hemingway can help improve clarity and readability.</li>
+	</ul>
+
+        </div>
+        
+        <div id="career" class="content">
+            <h3>Breaking Into the Industry</h3>
+
+	<h4>How to Gain Experience and Build a Portfolio</h4>
+		<p>To build a strong portfolio:</p>
+	<ul>
+		<li>Start by writing sample documents or volunteering for small projects.</li>
+		<li>Offer to help create content for websites, blogs, or nonprofit organizations.</li>
+		<li>Build a personal website to showcase your work and skills.</li>
+	</ul>
+	<h3>Certifications and Professional Organizations</h3>
+		<p>Certifications can boost your credibility and marketability as a technical writer:</p>
+	<ul>
+		<li>STC (Society for Technical Communication) offers certifications and networking opportunities.</li>
+		<li>The UX Writing Hub provides courses and resources on writing for user experience (UX).</li>
+	</ul>
+	<h3>Job Search Strategies and Interview Tips</h3>
+		<p>To find technical writing jobs:</p>
+	<ul>
+		<li>Style your resume and portfolio to highlight important skills and experience.</li>
+		<li>Use job boards and company websites to find openings.</li>
+		<li>Prepare for interviews by practicing how you describe your process, explain your writing samples, and discuss your understanding of the target audience.</li>
+	</ul>
+
+        </div>
+        
+        <div id="community" class="content">
+            <h3>Community</h3>
+            <p>Have questions or want to share your ideas? Use the comment section below to connect with aspiring technical writers.</p>
+            <textarea id="commentBox" rows="4" placeholder="Write your comment here..."></textarea>
+            <p id="wordCount">0/250</p>
+            <button onclick="addComment()">Post Comment</button>
+                <ul id="commentsList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+<div class="about-me">
+    <img src="precious.jpg" alt="Precious Staggers">
+    <p>
+	Hello! I'm <em><strong>Precious Staggers</strong></em>, a beginner technical writer with a bit of experience dedicated to making complex concepts simple and accessible. Currently pursuing my degree in <strong>Computer Science</strong> at the <em>University of Arkansas Grantham</em>, I have developed skills in <strong> technical documentation, UX writing, and instructional design</strong>.
+  </p>
+  <p>
+ My experience includes creating video tutorials, recommendation reports, and proposals. 
+        I enjoy working with tools like <strong>Adobe, Notepad++, Microsoft Office, and Google Docs</strong>, 
+        and I’m always eager to explore new technologies.
+ </p>
+    <p>
+        <strong>Why Technical Writing?</strong> I love transforming complex topics into clear, engaging content. 
+        Whether it's explaining software, designing user-friendly guides, or simplifying technical jargon, 
+        I thrive on making information accessible.
+    </p>
+    <p>
+        Outside of writing, I enjoy <strong>coding small websites, learning UX design, and spending time with my four amazing children</strong>—my greatest inspiration!
+    </p>
+    <p>
+
+Let’s connect! Feel free to reach out on <a href="https://www.linkedin.com/in/precious-staggers-673a13212">LinkedIn</a> or join in the conversation in the Community section.
+</p>
+	</div>
+</div>
+    
+<div class="footer">
+    <p>&copy; 2025 How to Be Technical | Connect with me on <a href="https://www.linkedin.com/in/precious-staggers-673a13212">LinkedIn</a>!</p>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
