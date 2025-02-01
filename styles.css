@@ -59,9 +59,8 @@ img {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    position: right;
     top: 100px;
-    max-width: 300px;
+    max-width: 1200px;
 }
 
 .about-me img {
