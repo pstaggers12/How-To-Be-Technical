@@ -7,6 +7,26 @@ function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
     localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
 }
+function addComment() {
+    let commentBox = document.getElementById('commentBox'); // Ensure this exists
+    let commentText = commentBox.value.trim();
+    if (commentText.length > 0) {
+        let commentList = document.getElementById('commentsList');
+        let newComment = document.createElement('li');
+        newComment.innerHTML = `${commentText} <button onclick='likeComment(this)'>❤️ <span>0</span></button>`;
+        commentList.appendChild(newComment);
+        saveComment(commentText);
+        commentBox.value = '';
+        document.getElementById('wordCount').textContent = '0/250';
+    }
+}
+
+function likeComment(button) {
+    let countSpan = button.querySelector('span');
+    let count = parseInt(countSpan.innerText);
+    countSpan.innerText = count + 1;
+}
+
 
 document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('darkMode') === 'true') {
